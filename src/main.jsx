@@ -12,12 +12,12 @@ import Contact from "./pages/Contact.jsx";
 import Resume from "./pages/Resume.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 
-// createRoot(document.getElementById("root")).render(
-//   <StrictMode>
-//     <App />
-//     <RouterProvider router={router} />
-//   </StrictMode>
-// );
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <Nav />
+    <App />
+  </StrictMode>
+);
 
 const router = createBrowserRouter([
   {
