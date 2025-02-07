@@ -13,11 +13,23 @@ const projects = [
     title: "project 3",
     link: "",
   },
+  {
+    title: "project 4",
+    link: "",
+  },
+  {
+    title: "project 5",
+    link: "",
+  },
+  {
+    title: "project 6",
+    link: "",
+  },
 ];
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="container">
       <h1>Portfolio</h1>
       {projects.map((p) => (
         <Project title={p.title} />
