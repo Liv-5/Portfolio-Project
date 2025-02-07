@@ -26,9 +26,9 @@ function Form() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    //clear the inputs
-    setFirstName("");
-    setLastName("");
+    //clear
+    setFormData("");
+    setErrors("");
   };
 
   return (
@@ -61,7 +61,7 @@ function Form() {
           placeholder="Your Message"
         ></textarea>
         {errors.message && <p className="error">{errors.message}</p>}
-        <button className="btn btn-primary" type="submit">
+        <button className="btn btn-primary btn-lg" type="submit">
           Submit
         </button>
       </form>

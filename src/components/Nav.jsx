@@ -19,8 +19,11 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="main-header-menu ">
-      <section>
+    <nav>
+      <section
+        className="navbar navbar-expand-lg"
+        style={{ display: "flex", gap: "20px" }}
+      >
         {navLinks.map((l) => (
           <div className="">
             <a href={l.link}>{l.name}</a>
