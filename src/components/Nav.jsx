@@ -19,7 +19,7 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="main-header-menu">
+    <nav className="main-header-menu ">
       <section>
         {navLinks.map((l) => (
           <div className="">
