@@ -1,10 +1,122 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* padding: 2rem; */
+  /* text-align: center; */
+  font-family: "Rubik", serif;
+  font-size: larger;
+  font-weight: 600;
+}
+
+body {
+  background-image: url("./src/assets/HEADER.jpg");
+  background-size: cover; /* Adjust to fit */
+  background-position: bottom; /* Center the image */
+  height: 300px; /* Adjust as needed */
+  width: 100%; /* Full width */
+}
+
+header {
+  /* backgroundImage: `url(${headerimg})`, */
+  background: linear-gradient(
+    to top,
+    rgba(179, 240, 236, 0.3),
+    rgba(176, 185, 241, 0.3)
+  );
+  background-size: cover;
+  background-position: bottom;
+  /* objectFit: "contain", */
+  height: 200px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-bottom: 50px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.Nav {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.navLink a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navLink a:link,
+.navLink a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+
+.navLink a:hover,
+.navLink a:active {
+  color: rgb(2, 143, 199);
+  font-size: 26px;
 }
 
 .card {
   padding: 2em;
+}
+
+main {
+  min-height: calc(100vh - 400px);
+  padding: 20px 40px;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background: linear-gradient(
+    to bottom,
+    rgba(179, 240, 236, 0.65),
+    rgba(176, 185, 241, 0.65)
+  );
+  line-height: 2.75rem;
+}
+
+.aboutSection {
+  border-radius: 25px;
+}
+
+.aboutMe {
+  font-size: 20px;
+  padding: 20px;
+  width: auto;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.japan {
+  width: 350px;
+  height: 450px;
+  margin-right: 20px;
+  border-radius: 25px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  display: flex;
+
+  justify-content: space-around;
+  padding: 20px;
+  color: aliceblue;
 }
