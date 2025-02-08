@@ -18,7 +18,15 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="devicon-linkedin-plain" style={{ fontSize: "70px" }}></i>
+        <i class="devicon-linkedin-plain" style={{ fontSize: "80px" }}></i>
+      </a>
+      <a
+        className="emaillink"
+        href="mailto:olivia.smith5@outlook.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Email Me
       </a>
     </footer>
   );
