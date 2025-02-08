@@ -21,11 +21,11 @@ export default function Nav() {
   return (
     <nav>
       <section
-        className="navbar navbar-expand-lg"
-        style={{ display: "flex", gap: "20px" }}
+        className="Nav navbar navbar-expand-lg"
+        // style={{ display: "flex", gap: "20px" }}
       >
         {navLinks.map((l) => (
-          <div className="">
+          <div className="navLink">
             <a href={l.link}>{l.name}</a>
           </div>
         ))}
