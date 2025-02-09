@@ -21,13 +21,13 @@ Built a portfolio page to display and link my projects on github, added a contac
 
 ## Preview
 
-![portfolio about page](./src/assets/portfolioaboutss.png)
+![portfolio about page](src/assets/portfolioaboutss.png)
 
-![portfolio contact page](./src/assets/portfoliocontactss.png)
+![portfolio contact page](src/assets/portfoliocontactss.png)
 
-![portfolio page](./src/assets/portfolioportss.png)
+![portfolio page](src/assets/portfolioportss.png)
 
-![portfolio resume page](.\src\assets\portfolioresumess.PNG)
+![portfolio resume page](src\assets\portfolioresumess.PNG)
 
 ## Credits
 
