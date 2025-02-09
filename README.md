@@ -4,12 +4,12 @@
 
 ## Description
 
+Built a portfolio page to display and link my projects on github, added a contact form, all with react and deployed it using netlify.
+
 ## Table of Contents
 
 - [GitHub Repository](#github-repository)
-- [Video walk-through](#video-walk-through)
 - [Preview](#preview)
-- [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 - [How to Contribute](#how-to-contribute)
@@ -17,22 +17,21 @@
 
 ## Github Repository
 
-[GitHub Repository]()
-
-## Video walk-through
-
-[video walk-through]()
+[GitHub Repository](https://github.com/Liv-5/Portfolio-Project)
 
 ## Preview
 
-for screenshot
-![]()
+![portfolio about page](./src/assets/portfolioaboutss.png)
 
-## Usage
+![portfolio contact page](./src/assets/portfoliocontactss.png)
 
-This is free to use!
+![portfolio page](./src/assets/portfolioportss.png)
+
+![portfolio resume page](.\src\assets\portfolioresumess.PNG)
 
 ## Credits
+
+Bootcamp tutors, instructor, and TAs were very helpful.
 
 ## License
 
