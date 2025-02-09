@@ -34,6 +34,10 @@ Built a portfolio page to display and link my projects on github, added a contac
 <img src="./src/assets/portfolioportss.PNG" alt="portfolio page">
 <img src="./src/assets/portfolioresumess.PNG" alt="portfolio resume page">
 
+## Deployed Webpage
+
+[Deployed Portfolio](https://livs-portfolio-page.netlify.app/)
+
 ## Credits
 
 Bootcamp tutors, instructor, and TAs were very helpful.
