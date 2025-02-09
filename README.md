@@ -4,6 +4,8 @@
 
 ## Description
 
+Built a portfolio page to display and link my projects on github, added a contact form, all with react and deployed it using netlify.
+
 ## Table of Contents
 
 - [GitHub Repository](#github-repository)
@@ -15,7 +17,7 @@
 
 ## Github Repository
 
-[GitHub Repository]()
+[GitHub Repository](https://github.com/Liv-5/Portfolio-Project)
 
 ## Preview
 

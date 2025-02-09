@@ -10,7 +10,6 @@
 
 body {
   background-image: url("./src/assets/HEADER.jpg");
-
   object-fit: cover;
   background-size: cover; /* Adjust to fit */
   background-position: bottom center;
@@ -29,7 +28,7 @@ header {
   );
   background-size: cover;
   background-position: bottom;
-  /* objectFit: "contain", */
+
   height: 200px;
   color: black;
   display: flex;
@@ -80,7 +79,7 @@ h1 {
 main {
   min-height: calc(100vh - 400px);
   padding: 20px 40px;
-  /* background-color: rgba(255, 255, 255, 0.5); */
+
   background: linear-gradient(
     to bottom,
     rgba(179, 240, 236, 0.65),
